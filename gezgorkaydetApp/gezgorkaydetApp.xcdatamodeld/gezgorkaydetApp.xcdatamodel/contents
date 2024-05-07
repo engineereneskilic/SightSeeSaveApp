@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16A323" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Kullanicilar" representedClassName="Kullanicilar" syncable="YES" codeGenerationType="class">
+        <attribute name="adi" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="kullaniciadi" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="kullaniciResim" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="sifre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sifretekrar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="soyadi" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LogKullanici" representedClassName="LogKullanici" syncable="YES" codeGenerationType="class">
+        <attribute name="kullaniciadi" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="kullanicid" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="logid" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Yerleskeler" representedClassName="Yerleskeler" syncable="YES" codeGenerationType="class">
+        <attribute name="kullanicid" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="yerleskeAdi" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="yerleskeBoylam" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="yerleskeEnlem" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="yerleskeid" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="yerleskeNotu" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="yerleskeResmi" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="yerleskeTipi" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="yerleskeZamani" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Kullanicilar" positionX="-63" positionY="-18" width="128" height="165"/>
+        <element name="LogKullanici" positionX="-63" positionY="45" width="128" height="30"/>
+        <element name="Yerleskeler" positionX="-63" positionY="0" width="128" height="30"/>
+    </elements>
+</model>

@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C7F6D5E20B8B52500D00667 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C7F6D5D20B8B52500D00667 /* logo.jpg */; };
+		8C7F6D6020B8B52900D00667 /* gallery.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C7F6D5F20B8B52900D00667 /* gallery.png */; };
+		8C7F6D6220B8D3E400D00667 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F6D6120B8D3E400D00667 /* CustomTableViewCell.swift */; };
+		8CA6070420AC31760008253B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA6070320AC31760008253B /* AppDelegate.swift */; };
+		8CA6070620AC31760008253B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA6070520AC31760008253B /* ViewController.swift */; };
+		8CA6070920AC31760008253B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CA6070720AC31760008253B /* Main.storyboard */; };
+		8CA6070C20AC31760008253B /* gezgorkaydetApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8CA6070A20AC31760008253B /* gezgorkaydetApp.xcdatamodeld */; };
+		8CA6070E20AC31760008253B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CA6070D20AC31760008253B /* Assets.xcassets */; };
+		8CA6071120AC31760008253B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CA6070F20AC31760008253B /* LaunchScreen.storyboard */; };
+		8CA6071A20AC32970008253B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA6071920AC32970008253B /* CoreData.framework */; };
+		8CA6071C20AC33FA0008253B /* veritabaniIslemleri.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA6071B20AC33FA0008253B /* veritabaniIslemleri.swift */; };
+		8CA6071E20AC36C60008253B /* giris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CA6071D20AC36C60008253B /* giris.jpg */; };
+		8CA6072220AC3CD10008253B /* girisVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA6072120AC3CD10008253B /* girisVC.swift */; };
+		8CA6072420AC3D4F0008253B /* yerleskelerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA6072320AC3D4F0008253B /* yerleskelerVC.swift */; };
+		8CA6072620AC42250008253B /* upluad-icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CA6072520AC42250008253B /* upluad-icon.jpg */; };
+		8CA6072820AC439C0008253B /* yerleskeEkleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA6072720AC439C0008253B /* yerleskeEkleVC.swift */; };
+		8CA6072A20AC44950008253B /* yerleskeSecVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA6072920AC44950008253B /* yerleskeSecVC.swift */; };
+		8CA6072C20AC454C0008253B /* yerleskeDetaylari.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA6072B20AC454C0008253B /* yerleskeDetaylari.swift */; };
+		8CA6072E20AC5F180008253B /* hizliMetodlar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA6072D20AC5F180008253B /* hizliMetodlar.swift */; };
+		8CBA53A620AF6B3C002EEDDA /* password-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CBA53A520AF6B3C002EEDDA /* password-icon.png */; };
+		8CBA53A820AF6B92002EEDDA /* user-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CBA53A720AF6B92002EEDDA /* user-icon.png */; };
+		8CBA53AA20AF742F002EEDDA /* kayitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBA53A920AF742F002EEDDA /* kayitVC.swift */; };
+		8CC07AC520AD15DC0093DA23 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC07AC420AD15DC0093DA23 /* MapKit.framework */; };
+		8CF40E1B20AF335C00850816 /* account-icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CF40E1A20AF335C00850816 /* account-icon.jpg */; };
+		8CF40E2120AF4C2000850816 /* gelistiriciBilgileriVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF40E2020AF4C2000850816 /* gelistiriciBilgileriVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C7F6D5D20B8B52500D00667 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
+		8C7F6D5F20B8B52900D00667 /* gallery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gallery.png; sourceTree = "<group>"; };
+		8C7F6D6120B8D3E400D00667 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		8CA6070020AC31760008253B /* gezgorkaydetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gezgorkaydetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CA6070320AC31760008253B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CA6070520AC31760008253B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CA6070820AC31760008253B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CA6070B20AC31760008253B /* gezgorkaydetApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = gezgorkaydetApp.xcdatamodel; sourceTree = "<group>"; };
+		8CA6070D20AC31760008253B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CA6071020AC31760008253B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CA6071220AC31760008253B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CA6071920AC32970008253B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8CA6071B20AC33FA0008253B /* veritabaniIslemleri.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = veritabaniIslemleri.swift; sourceTree = "<group>"; };
+		8CA6071D20AC36C60008253B /* giris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = giris.jpg; sourceTree = "<group>"; };
+		8CA6072120AC3CD10008253B /* girisVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = girisVC.swift; sourceTree = "<group>"; };
+		8CA6072320AC3D4F0008253B /* yerleskelerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yerleskelerVC.swift; sourceTree = "<group>"; };
+		8CA6072520AC42250008253B /* upluad-icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "upluad-icon.jpg"; sourceTree = "<group>"; };
+		8CA6072720AC439C0008253B /* yerleskeEkleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yerleskeEkleVC.swift; sourceTree = "<group>"; };
+		8CA6072920AC44950008253B /* yerleskeSecVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yerleskeSecVC.swift; sourceTree = "<group>"; };
+		8CA6072B20AC454C0008253B /* yerleskeDetaylari.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yerleskeDetaylari.swift; sourceTree = "<group>"; };
+		8CA6072D20AC5F180008253B /* hizliMetodlar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = hizliMetodlar.swift; path = ../hizliMetodlar.swift; sourceTree = "<group>"; };
+		8CBA53A520AF6B3C002EEDDA /* password-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "password-icon.png"; sourceTree = "<group>"; };
+		8CBA53A720AF6B92002EEDDA /* user-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user-icon.png"; sourceTree = "<group>"; };
+		8CBA53A920AF742F002EEDDA /* kayitVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kayitVC.swift; sourceTree = "<group>"; };
+		8CC07AC420AD15DC0093DA23 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8CF40E1A20AF335C00850816 /* account-icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "account-icon.jpg"; sourceTree = "<group>"; };
+		8CF40E2020AF4C2000850816 /* gelistiriciBilgileriVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gelistiriciBilgileriVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CA606FD20AC31760008253B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC07AC520AD15DC0093DA23 /* MapKit.framework in Frameworks */,
+				8CA6071A20AC32970008253B /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CA606F720AC31760008253B = {
+			isa = PBXGroup;
+			children = (
+				8CA6070220AC31760008253B /* gezgorkaydetApp */,
+				8CA6070120AC31760008253B /* Products */,
+				8CA6071820AC32970008253B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8CA6070120AC31760008253B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CA6070020AC31760008253B /* gezgorkaydetApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CA6070220AC31760008253B /* gezgorkaydetApp */ = {
+			isa = PBXGroup;
+			children = (
+				8C7F6D5F20B8B52900D00667 /* gallery.png */,
+				8C7F6D5D20B8B52500D00667 /* logo.jpg */,
+				8CBA53A720AF6B92002EEDDA /* user-icon.png */,
+				8CBA53A520AF6B3C002EEDDA /* password-icon.png */,
+				8CF40E1A20AF335C00850816 /* account-icon.jpg */,
+				8CA6072D20AC5F180008253B /* hizliMetodlar.swift */,
+				8C7F6D6120B8D3E400D00667 /* CustomTableViewCell.swift */,
+				8CA6071D20AC36C60008253B /* giris.jpg */,
+				8CA6070320AC31760008253B /* AppDelegate.swift */,
+				8CA6070520AC31760008253B /* ViewController.swift */,
+				8CA6072520AC42250008253B /* upluad-icon.jpg */,
+				8CA6070720AC31760008253B /* Main.storyboard */,
+				8CBA53A920AF742F002EEDDA /* kayitVC.swift */,
+				8CA6072B20AC454C0008253B /* yerleskeDetaylari.swift */,
+				8CA6072920AC44950008253B /* yerleskeSecVC.swift */,
+				8CA6070D20AC31760008253B /* Assets.xcassets */,
+				8CA6070F20AC31760008253B /* LaunchScreen.storyboard */,
+				8CA6071220AC31760008253B /* Info.plist */,
+				8CA6070A20AC31760008253B /* gezgorkaydetApp.xcdatamodeld */,
+				8CA6071B20AC33FA0008253B /* veritabaniIslemleri.swift */,
+				8CA6072120AC3CD10008253B /* girisVC.swift */,
+				8CA6072320AC3D4F0008253B /* yerleskelerVC.swift */,
+				8CA6072720AC439C0008253B /* yerleskeEkleVC.swift */,
+				8CF40E2020AF4C2000850816 /* gelistiriciBilgileriVC.swift */,
+			);
+			path = gezgorkaydetApp;
+			sourceTree = "<group>";
+		};
+		8CA6071820AC32970008253B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CC07AC420AD15DC0093DA23 /* MapKit.framework */,
+				8CA6071920AC32970008253B /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CA606FF20AC31760008253B /* gezgorkaydetApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CA6071520AC31760008253B /* Build configuration list for PBXNativeTarget "gezgorkaydetApp" */;
+			buildPhases = (
+				8CA606FC20AC31760008253B /* Sources */,
+				8CA606FD20AC31760008253B /* Frameworks */,
+				8CA606FE20AC31760008253B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gezgorkaydetApp;
+			productName = gezgorkaydetApp;
+			productReference = 8CA6070020AC31760008253B /* gezgorkaydetApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CA606F820AC31760008253B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Enes KILIC";
+				TargetAttributes = {
+					8CA606FF20AC31760008253B = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8CA606FB20AC31760008253B /* Build configuration list for PBXProject "gezgorkaydetApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CA606F720AC31760008253B;
+			productRefGroup = 8CA6070120AC31760008253B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CA606FF20AC31760008253B /* gezgorkaydetApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CA606FE20AC31760008253B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA6071120AC31760008253B /* LaunchScreen.storyboard in Resources */,
+				8CBA53A620AF6B3C002EEDDA /* password-icon.png in Resources */,
+				8C7F6D6020B8B52900D00667 /* gallery.png in Resources */,
+				8CA6070E20AC31760008253B /* Assets.xcassets in Resources */,
+				8CA6072620AC42250008253B /* upluad-icon.jpg in Resources */,
+				8C7F6D5E20B8B52500D00667 /* logo.jpg in Resources */,
+				8CA6071E20AC36C60008253B /* giris.jpg in Resources */,
+				8CBA53A820AF6B92002EEDDA /* user-icon.png in Resources */,
+				8CF40E1B20AF335C00850816 /* account-icon.jpg in Resources */,
+				8CA6070920AC31760008253B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CA606FC20AC31760008253B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA6072A20AC44950008253B /* yerleskeSecVC.swift in Sources */,
+				8CA6070C20AC31760008253B /* gezgorkaydetApp.xcdatamodeld in Sources */,
+				8CA6072220AC3CD10008253B /* girisVC.swift in Sources */,
+				8CBA53AA20AF742F002EEDDA /* kayitVC.swift in Sources */,
+				8CA6070620AC31760008253B /* ViewController.swift in Sources */,
+				8CA6070420AC31760008253B /* AppDelegate.swift in Sources */,
+				8CA6071C20AC33FA0008253B /* veritabaniIslemleri.swift in Sources */,
+				8CA6072820AC439C0008253B /* yerleskeEkleVC.swift in Sources */,
+				8CF40E2120AF4C2000850816 /* gelistiriciBilgileriVC.swift in Sources */,
+				8CA6072C20AC454C0008253B /* yerleskeDetaylari.swift in Sources */,
+				8CA6072E20AC5F180008253B /* hizliMetodlar.swift in Sources */,
+				8CA6072420AC3D4F0008253B /* yerleskelerVC.swift in Sources */,
+				8C7F6D6220B8D3E400D00667 /* CustomTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8CA6070720AC31760008253B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CA6070820AC31760008253B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CA6070F20AC31760008253B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CA6071020AC31760008253B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CA6071320AC31760008253B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CA6071420AC31760008253B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CA6071620AC31760008253B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gezgorkaydetApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = enes.gezgorkaydetApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8CA6071720AC31760008253B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gezgorkaydetApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = enes.gezgorkaydetApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CA606FB20AC31760008253B /* Build configuration list for PBXProject "gezgorkaydetApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CA6071320AC31760008253B /* Debug */,
+				8CA6071420AC31760008253B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CA6071520AC31760008253B /* Build configuration list for PBXNativeTarget "gezgorkaydetApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CA6071620AC31760008253B /* Debug */,
+				8CA6071720AC31760008253B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8CA6070A20AC31760008253B /* gezgorkaydetApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8CA6070B20AC31760008253B /* gezgorkaydetApp.xcdatamodel */,
+			);
+			currentVersion = 8CA6070B20AC31760008253B /* gezgorkaydetApp.xcdatamodel */;
+			path = gezgorkaydetApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8CA606F820AC31760008253B /* Project object */;
+}
