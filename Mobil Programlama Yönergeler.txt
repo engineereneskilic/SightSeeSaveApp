@@ -1,0 +1,75 @@
+Proje Adý: Gez Gör Kaydet
+
+
+Proje Genel Yönergeler..
+************************
+
+Açýklama: Projede gözden kaçabilen fark edilmeyen yapýlar mevcut. Bu yapýlarý anlatmalýyým..
+		
+	  Bunun yanýnda projemde neredeyse öðrendiðimiz herþey mevcuttur. Buna dikkat ederek
+yapýlarýmý kurdum.
+	  Proje Xcode sürümleri nedeniyle çalýþmayabiliyor. Projeyi çalýþtýramazsanýz yada
+herhangi bir yerinde hata alýrsanýz eneskilic@stu.plato.edu.tr / eneskilic@ayvansaray.edu.tr adresinden bana ulaþabilirsiniz.
+
+
+KULLANICILAR
+*****************
+
+1- Projem çoklu kullanýcý(oturum) uyumludur. Ayný cihazda birden fazla kiþi
+gezip görüp kaydedebilir. Hiçbir kullanýcý diðer kullanýcýnýn içeriklerine eriþemez.
+Not: Hocam bunu ben normalde CoreData gibi sadece cihaz içerisine veri kaydetmek yerine,
+bir web sunucusuna yükleyip verileri güvenli bir þekilde saklamak istedim fakat baþaramadým 
+bunu yapmamýmýn nedeni verilerime bu uygulamayý çalýþtýran her cihazdan eriþebilcektim. Kendi
+cihazýma baðlý kalmayacaktýmm. Bunun yerine CoreData kullanmak zorunda kaldým.
+
+Örnek Kullanýcýlarým..
+
+Kullanýcý 1
+----------
+Kullanýcý Adý: riki_travel
+Þifre :riki123
+
+Kullanýcý 2
+-----------
+Kullanýcý Adý: ozlemtuna
+Þifre :ozlem123
+
+Not: Tavsiyem riki_travel ' dan giriniz.
+
+2- Kullanýcý giriþ sayfasýnda en son sisteme giriþ yapan kullanýcý bilgileri otomatik olarak gelmek
+tedir(Kullanýcý log veritabaný sayesinde). Çýkýþ yapýldýðýmda bir daha þifre girmeye gerek yok þifre girili bir þekilde gelecektir..
+
+3- Sisteme bir kez giriþ yapýldýðýnda deðil uygulama cihaz(telefon) kapansa bile çýkýþ yapýlmadýðý
+için sistem açýk kalacak. Bunu yapmamýn sebebi bir kullanýcý kendi telefonundan her gezip gördüðü yer
+yer için kullanýcý giriþi yapmasýn. Kullanýcý ne zaman isterse o zaman kilitlesin. Yani oturumunu 
+sonlandýrsýn.
+
+
+4- Program yazýlýmcýsý yani benim cv linkimin bulunduðu button giriþ sayfalarýnda mevcut. CV'imi
+görmek için internet baðlantýnýzýn olmasý gerekiyor. Çünkü bir web sitesine baðlanýyor.
+
+// Harita
+*****************
+
+
+5- Yerleþke eklemek istediðinizde varsayýlan harita ayarý sizi bulunduðunuz konuma götürecek. Yal-
+nýz biliyorsunuz konum bulma sýkýntýlýydý yani her zaman çalýþmýyordu.
+
+6- Yerleþke eklerken konum bilginizi haritadan seçme kýsmý geldiðinde seçerken dokunduðunuz(týkladýðýnýz)
+yerde 3 saniye basýlý tutmalýsýnýz. Bu sayede tek tek yanlýþ iþaretlemelerden kurtulmuþ oluyoruz.
+
+7- Kaydetmiþ olduðunuz yerleþkenizi haritada görüntülerken 'i' simgesine týklayarak navigasyon moduna
+geçip bulunduðunuz yerden sizi daha önce gezip gördüðünüz yerleþkeye(mekana-yere) yol tarifi alabilirsiniz.
+
+// tasarým konusu
+*********************
+
+8 - hazýr tasarým kullanmadým projemde çünkü kod yapýsý deðiþik anlaþýlmasý güç ve kimi zamanda
+belirli algoritmalarda tutukluk yapýyordu. Hatalar alabiliyordum. Üçüncü parti yazýlýmlar hep sorunludur biliyorsunuz..
+
+
+Proje Ekibi
+************
+16010501004 Enes KILIÇ
+
+
