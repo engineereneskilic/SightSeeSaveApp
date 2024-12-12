@@ -1,6 +1,6 @@
 # Sight-See-Save Application
 
-![**Sight-See-Save Application (Image)**](workflow-diagram.png)  
+![**Sight-See-Save Application (Image)**](swift.JPG)  
 
 
 **An iOS-Swift Mobile Application for Travelers**
